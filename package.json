@@ -1,0 +1,34 @@
+{
+    "name": "serverless-aws-batch",
+    "version": "1.0.7",
+    "description": "Serverless Framework Plugin for interacting with AWS Batch",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/justinram11/serverless-aws-batch.git"
+    },
+    "keywords": [
+        "serverless",
+        "aws",
+        "batch",
+        "python"
+    ],
+    "author": "Justin Ramsey",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/justinram11/serverless-aws-batch/issues"
+    },
+    "homepage": "https://github.com/justinram11/serverless-aws-batch#readme",
+    "dependencies": {
+        "aws-sdk": "^2.1599.0",
+        "bluebird": "^3.7.2",
+        "cross-spawn": "^6.0.5",
+        "fs-extra": "^7.0.1",
+        "jszip": "^3.4.0",
+        "lodash": "^4.17.13",
+        "serverless": "^1.70.0"
+    }
+}
